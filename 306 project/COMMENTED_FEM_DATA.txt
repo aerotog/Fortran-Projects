@@ -1,0 +1,25 @@
+1 <--- # of elements
+2 <--- # of nodes
+
+0 0 <--- node 1 location
+10 0 <--- node 2 location
+       <--- node n location
+
+1 2    <--- element conductivity table
+
+10.6E6 1 0.083 0.100073 <--- material properties of element n: E, A, I, rho
+
+
+0 0 <--- applied distributed loads to element n in X, Z directions
+
+
+0 0 0 <--- applied nodal forces at node 1
+0 -500 0 <--- applied nodal forces at node 2
+	<--- applied nodal forces at node n
+
+3 <--- # of boundary conditions
+
+1 1 <--- B.C. at node 1 and direction x
+1 2 <--- B.C. at node 1 and direction y
+1 3 <--- B.C. at node 1 and direction z
+
